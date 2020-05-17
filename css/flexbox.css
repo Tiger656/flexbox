@@ -1,0 +1,13 @@
+.flex-container {
+    /* define .flex-container as flex container. Elements inside becomes flex-elements automaticly */
+    display: flex; 
+    flex-direction: row;
+
+    
+    /* Only for container. Default - nowrap. Move elements on another line/column when lack of space */
+    flex-wrap: nowrap;
+}
+
+.flex-element {
+    flex-grow: 1;
+}
